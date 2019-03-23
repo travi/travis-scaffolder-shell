@@ -39,6 +39,13 @@ $ npm install
 $ npm test
 ```
 
+## Related Projects
+
+* [project-scaffolder](https://npm.im/@travi/project-scaffolder)
+* [scaffolder-sub-command](https://github.com/travi/scaffolder-sub-command)
+* [shell-scaffolder](https://github.com/travi/javascript-shell)
+* [cli](https://npm.im/@travi/cli)
+
 [npm-link]: https://www.npmjs.com/package/@travi/travis-scaffolder-shell
 [npm-badge]: https://img.shields.io/npm/v/@travi/travis-scaffolder-shell.svg
 [license-link]: LICENSE
