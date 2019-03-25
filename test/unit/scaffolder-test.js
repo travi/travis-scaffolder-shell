@@ -18,7 +18,7 @@ suite('scaffolder', () => {
   test('that the config is scaffolded', async () => {
     const projectRoot = any.string();
 
-    assert.deepEqual(await scaffold({projectRoot}), {});
+    assert.deepEqual(await scaffold({projectRoot}), {vcsIgnore: {files: [], directories: []}});
     assert.calledWith(configScaffolder.default, {projectRoot});
   });
 });
